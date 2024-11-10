@@ -21,8 +21,11 @@
      - **[Infura](https://www.infura.io/)** o **Alchemy**: Proveedores de infraestructura que te permiten interactuar con Ethereum sin necesidad de gestionar tu propio nodo.
       -   **Infura** tiene soporte para usuarios prncipiantes
       -   La dos te hacen dependiente de un proveedor externo y se compromete la descentralidad.
+
+      Una manera es crear el **Smartcontract** desplegarlo en la **Bolckchain** que determinemos, por ejemplo Ethereum y luego conectarlo con nuestra aplicación web mediante la liberaría de javascript **3Web.js**
    - **Smart Contracts**:
      - **[Solidity](https://soliditylang.org/)**: El lenguaje de programación más utilizado para desarrollar contratos inteligentes en Ethereum.
+     - Se puede desarrollar en el IDE enfocado al smart contract **[Remix](https://remix.ethereum.org/#lang=en&optimize=false&runs=200&evmVersion=null&version=soljson-v0.8.26+commit.8a97fa7a.js)**
    - **Verifiable Credentials y DIDs**:
      - **[Decentralized Identity Foundation (DIF)](https://identity.foundation/)**: Explora esta fundación que estandariza **DIDs** y **VCs**.
      - **[Veramo](https://identity.foundation/)** o **[uPort](https://www.uport.me/)**: Herramientas que soportan **SSI** y la gestión de **DIDs** y **VCs**.
@@ -80,18 +83,19 @@
 ### 5. **Desarrollo del Backend y API de Verificación**
 
 #### **5.1 Crear una API de Verificación de Credenciales**
-   - Implementa una API en el backend que permita a los empleadores u otras instituciones verificar la validez de las credenciales.
+   - Implementa una API en el backend que permita a las empresas u otras instituciones verificar la validez de las credenciales.
    - La API debe interactuar con el **smart contract** para verificar si el **VC** es válido y no ha sido revocado.
    
 
 ### 6. **Integración de eIDAS2 en el Wallet**
    - El wallet debe cumplir con las normativas de **eIDAS2** para que las firmas electrónicas sean válidas dentro de la UE.
-   - Utiliza **MetaMask**, **uPort**, o **Trinsic** para que los usuarios puedan gestionar sus **VCs**, realizar firmas electrónicas y compartir sus credenciales de manera legalmente válida.
+   - Utiliza  **uPort** para que los usuarios puedan gestionar sus **VCs**, realizar firmas electrónicas y compartir sus credenciales de manera legalmente válida.
+   - Se puede validar el wallwet en el [validador de wallet ebsi](https://ec.europa.eu/digital-building-blocks/sites/display/EBSI/Conformant+wallets)
 
 ### 7. **Pruebas y Despliegue**
 
 #### **7.1 Pruebas**
-   - Realiza pruebas exhaustivas en la testnet de Ethereum (como **Rinkeby** o **Goerli**) para asegurarte de que:
+   - Hace falta realizar pruevas en la testnet de Ethereum (como **Rinkeby** o **Goerli**) para asegurarte de que:
      - Los **contratos inteligentes** funcionan correctamente.
      - Los **VCs** se emiten y verifican correctamente.
      - El **wallet** interactúa bien con **eIDAS2** para firmas electrónicas.
