@@ -45,7 +45,7 @@
    - **repositorio en GitHub**
    - Instalación y configuración de los **frameworks** de Ethereum (Truffle, Hardhat) y las bibliotecas para **SSI** (Veramo, uPort).
 
-### 3. **Desarrollo de Contratos Inteligentes (Smart Contracts)** ##### Solidity
+### 3. **Desarrollo de Contratos Inteligentes (Smart Contracts)** **(Solidity)**
 
 #### **3.1 Crear el Contrato Inteligente para la Emisión de Credenciales** con **Solidity**
    - **Propósito**: El contrato debe permitir la creación, verificación y revocación de las **credenciales verificables (VCs)**.
@@ -58,7 +58,7 @@
    - Usa **Truffle** o **Hardhat** para probar y desplegar tu contrato en la red Ethereum (testnet antes de usar la mainnet).
    - Interactúa con el contrato usando **Web3.js** o **Ethers.js** en el backend de tu proyecto.
 
-### 4. **Implementación de la Identidad Digital SSI** ##### Veramo
+### 4. **Implementación de la Identidad Digital SSI** **(Veramo)**
 
 #### **4.1 Crear y Gestionar DIDs**
    - Los **DIDs** son identificadores descentralizados que representan a una entidad (como un estudiante o institución) en la blockchain.
