@@ -30,16 +30,20 @@
         a:hover {
             text-decoration: underline;
         }
-        .dir {
+       .dir {
             width: 300px; /* Ancho del div */
             margin: 0 auto; /* Centrado horizontal */
             background-color: lightblue;
             padding: 20px;
+            display: flex; /* Habilita Flexbox */
+            justify-content: center; /* Centra horizontalmente el contenido */
+            align-items: center; /* Centra verticalmente el contenido */
         }
+
         img {
-            margin: 0 auto;
-            padding: 20px;
-            margin: 0 auto; /* Centrado horizontal */
+            max-width: 100%; /* Hace que la imagen no sea más ancha que el contenedor */
+            height: auto; /* Mantiene la relación de aspecto de la imagen */
+            padding: 10px;
         }
     </style>
 </head>
