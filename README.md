@@ -2,13 +2,13 @@
 Proyecto Centro de excelencia CERT 
 Los nuevos estándares tecnológicos y europeos (Blockchain, identidad digital autosoberana SSI, eIDAS2 y EBSI) aplicables en un sistema de credenciales verificables para una formación  modular y acumulable de la nueva FP
 
-[Descripción](descripcion.md)
+[Descripción](docs/descripcion.md)
 
-[Estructura](estructura.md)
+[Estructura](docs/estructura.md)
 
-[Fases](fases.md)
+[Fases](docs/fases.md)
 
-[elIDAS2](elIDAS2.md)
+[elIDAS2](docs/elIDAS2.md)
 
-[Estandares EBSI](estandaresEBSI.md)
+[Estandares EBSI](docs/estandaresEBSI.md)
       
