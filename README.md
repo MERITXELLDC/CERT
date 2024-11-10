@@ -6,7 +6,7 @@ Los nuevos estándares tecnológicos y europeos (Blockchain, identidad digital a
 
 [Estructura](docs/estructura.md)
 
-[Fases](docs/fases.md)
+[Fases](docs/Fases.md)
 
 [elIDAS2](docs/elIDAS2.md)
 
