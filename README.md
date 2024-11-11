@@ -8,7 +8,7 @@ Los nuevos estándares tecnológicos y europeos (Blockchain, identidad digital a
 
 [Fases](docs/Fases.md)
 
-[elIDAS2](docs/elIDAS2.md)
+[elIDAS2](docs/eIDAS2.md)
 
 [Estandares EBSI](docs/estandaresEBSI.md)
       
